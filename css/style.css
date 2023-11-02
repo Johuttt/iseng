@@ -1,0 +1,172 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body, ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: gold;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-kiri span{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar-kanan a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.navbar-kanan a:hover {
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 25rem;
+  }
+  
+  .form-card {
+    max-width: 400px;
+    padding: 40px 40px;
+  }
+  
+  .form-card h2 {
+    font-size: 24px;
+  }
+  
+  .form-card label,
+  .form-card input,
+  .form-card textarea {
+    display: block;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  
+  .form-card input,
+  .form-card textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-card button {
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .data-card {
+    max-width: 400px;
+    padding: 40px 40px;
+  }
+  
+  .data-card h2 {
+    font-size: 24px;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table td,
+  .custom-table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+    gap: 20px;
+    padding: 10px 100px;
+    margin-bottom: 10px;
+
+}
+
+.user-card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 18rem;
+  text-align: center;
+}
+
+.user-card img {
+  border-radius: 5px 5px 0 0;
+  width: 18rem;
+  height: auto;
+}
+
+.user-card h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.user-card p {
+  font-size: 16px;
+}
+
+.header {
+    padding: 10px 100px;
+}
+
+
+  /* responsif */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; 
+        padding: 10px; 
+    }
+
+    .navbar-kiri {
+        margin-bottom: 10px; 
+    }
+
+    .navbar-kanan {
+        flex-direction: column; 
+    }
+
+    .navbar-kanan a {
+        margin: 5px 3px; 
+    }
+}
